@@ -148,6 +148,18 @@
   .read-more { font-size: .85rem; font-weight: 600; color: var(--primary); display: inline-flex; align-items: center; gap: .3rem; text-decoration: none; }
   .read-more:hover { gap: .55rem; }
 
+  .frios-section { background: #111; padding: 2.5rem 1rem; }
+  .frios-section .section-inner { max-width: 860px; margin: 0 auto; }
+  .frios-section .section-title { color: #D4A017; font-size: .78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1rem; }
+  .frios-table { width: 100%; border-collapse: collapse; background: #181818; border-radius: 12px; overflow: hidden; }
+  .frios-table th, .frios-table td { padding: 10px 14px; text-align: center; border-bottom: 1px solid #232323; }
+  .frios-table th { background: #222; color: #D4A017; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; }
+  .frios-table td { color: #e0e0e0; font-size: 14px; }
+  .frios-table tr:last-child td { border-bottom: none; }
+  .num-ball { display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px; border-radius: 50%; background: #2a7a4f; color: #fff; font-weight: 700; font-size: 13px; }
+  .frios-note { font-size: .82rem; color: #666; margin-top: .75rem; text-align: center; }
+  .frios-note a { color: #D4A017; }
+
   .site-footer { background: #0d0d0d; color: #888; text-align: center; padding: 1.5rem 1rem; font-size: .85rem; }
   .site-footer a { color: #aaa; }
   .site-footer a:hover { color: #fff; }
@@ -179,6 +191,45 @@
   <a href="https://numerosdehoy.online/numeros-frios/" class="hero-cta">
     <i class="fas fa-chart-bar"></i> Ver estadísticas actualizadas
   </a>
+</section>
+
+<section class="frios-section">
+  <div class="section-inner">
+    <p class="section-title">Top 25 Números con menor frecuencia (30 días)</p>
+    <table class="frios-table">
+      <thead>
+        <tr><th>Rank</th><th>Número</th><th>Total</th><th>1ra</th><th>2da</th><th>3ra</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td><div class="num-ball">89</div></td><td>2</td><td>0</td><td>1</td><td>1</td></tr>
+        <tr><td>2</td><td><div class="num-ball">77</div></td><td>3</td><td>0</td><td>2</td><td>1</td></tr>
+        <tr><td>3</td><td><div class="num-ball">60</div></td><td>4</td><td>1</td><td>1</td><td>2</td></tr>
+        <tr><td>4</td><td><div class="num-ball">84</div></td><td>4</td><td>2</td><td>0</td><td>2</td></tr>
+        <tr><td>5</td><td><div class="num-ball">00</div></td><td>4</td><td>1</td><td>0</td><td>3</td></tr>
+        <tr><td>6</td><td><div class="num-ball">12</div></td><td>5</td><td>1</td><td>2</td><td>2</td></tr>
+        <tr><td>7</td><td><div class="num-ball">44</div></td><td>5</td><td>1</td><td>3</td><td>1</td></tr>
+        <tr><td>8</td><td><div class="num-ball">49</div></td><td>5</td><td>0</td><td>4</td><td>1</td></tr>
+        <tr><td>9</td><td><div class="num-ball">73</div></td><td>5</td><td>3</td><td>1</td><td>1</td></tr>
+        <tr><td>10</td><td><div class="num-ball">75</div></td><td>5</td><td>2</td><td>3</td><td>0</td></tr>
+        <tr><td>11</td><td><div class="num-ball">90</div></td><td>5</td><td>3</td><td>1</td><td>1</td></tr>
+        <tr><td>12</td><td><div class="num-ball">30</div></td><td>6</td><td>3</td><td>1</td><td>2</td></tr>
+        <tr><td>13</td><td><div class="num-ball">36</div></td><td>6</td><td>1</td><td>0</td><td>5</td></tr>
+        <tr><td>14</td><td><div class="num-ball">47</div></td><td>6</td><td>2</td><td>3</td><td>1</td></tr>
+        <tr><td>15</td><td><div class="num-ball">61</div></td><td>6</td><td>2</td><td>2</td><td>2</td></tr>
+        <tr><td>16</td><td><div class="num-ball">62</div></td><td>6</td><td>1</td><td>3</td><td>2</td></tr>
+        <tr><td>17</td><td><div class="num-ball">71</div></td><td>6</td><td>0</td><td>3</td><td>3</td></tr>
+        <tr><td>18</td><td><div class="num-ball">83</div></td><td>6</td><td>1</td><td>5</td><td>0</td></tr>
+        <tr><td>19</td><td><div class="num-ball">25</div></td><td>7</td><td>0</td><td>1</td><td>6</td></tr>
+        <tr><td>20</td><td><div class="num-ball">28</div></td><td>7</td><td>1</td><td>1</td><td>5</td></tr>
+        <tr><td>21</td><td><div class="num-ball">29</div></td><td>7</td><td>1</td><td>4</td><td>2</td></tr>
+        <tr><td>22</td><td><div class="num-ball">34</div></td><td>7</td><td>1</td><td>3</td><td>3</td></tr>
+        <tr><td>23</td><td><div class="num-ball">38</div></td><td>7</td><td>2</td><td>2</td><td>3</td></tr>
+        <tr><td>24</td><td><div class="num-ball">40</div></td><td>7</td><td>3</td><td>3</td><td>1</td></tr>
+        <tr><td>25</td><td><div class="num-ball">46</div></td><td>7</td><td>3</td><td>2</td><td>2</td></tr>
+      </tbody>
+    </table>
+    <p class="frios-note">Datos al 16 mayo 2026 · <a href="https://numerosdehoy.online/numeros-frios/" target="_blank" rel="noopener">Ver tabla actualizada en tiempo real →</a></p>
+  </div>
 </section>
 
 <div class="article-outer">
